@@ -1,3 +1,4 @@
+//które pliki git ma ignorować
 HELP.md
 .gradle
 build/

@@ -10,13 +10,14 @@ version = '0.0.1-SNAPSHOT'
 java {
 	sourceCompatibility = '17'
 }
-
+// tj. skąd pobieramy nasze zależności, biblioteki
 repositories {
 	mavenCentral()
 }
-
+//dokładamy zależności dla naszej aplikacji
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	//biblioteki używane tylko i wyłącznie do odpalania testó, nie znajdą się w naszym artefakcie
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

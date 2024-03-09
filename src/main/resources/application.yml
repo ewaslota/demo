@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Demo2
+    admin:
+      enabled: true
+  profiles:
+    active: prod
